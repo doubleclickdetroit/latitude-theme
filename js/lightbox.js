@@ -344,6 +344,8 @@ lightbox = new Lightbox options
   $(document).on('pop-initialized', function() {
     var lightbox, options;
     options = new LightboxOptions;
+    options.fileLoadingImage = '';
+    options.fileCloseImage = '';
     return lightbox = new Lightbox(options);
   });
 
